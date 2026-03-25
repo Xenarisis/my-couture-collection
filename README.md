@@ -1,8 +1,31 @@
-# my-couture-collection
+# My Couture Collection
 
-[architecture project](image.png)
-[version of node and npm](imagecopy.png)
-[page localhost:3000](Pagereact.png)
+A Next.js project built as part of the Meta React Development course on Qwasar.
+
+## VS Code Extensions
+- ESLint
+- Prettier - Code Formatter
+- Tailwind CSS IntelliSense
+- ES7+ React/Redux/React-Native Snippets
+- GitLens
+
+## Challenges & Solutions
+- **Colon in folder path** — renamed `Qwasar:School_Project` to `Qwasar-School_Project` to fix npm errors
+- **npm permissions error** — used `sudo` to update npm globally
+- **node_modules pushed to GitHub** — used `git reset --soft` to undo commits and repush without large files
+
+## Project Structure
+- `src/app/` — pages and routing using Next.js App Router
+- `src/components/` — reusable UI, layout, and form components
+- `src/lib/` — utilities, hooks, validation schemas and API logic
+- `src/types/` — shared TypeScript type definitions
+- `src/styles/` — global styles and design tokens
+
+for some picture of architecture, version of node and npm, page at localhost:3000 
+
+- [architecture project](image.png)
+- [version of node and npm](imagecopy.png)
+- [page localhost:3000](Pagereact.png)
 
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
