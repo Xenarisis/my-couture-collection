@@ -1,3 +1,8 @@
+# my-couture-collection
+
+[architecture project](image.png)
+[version of node and npm](imagecopy.png)
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
